@@ -4,7 +4,7 @@ import json
 
 
 class Command(BaseCommand):
-    help = 'Import pinboard json export into database'
+    help = 'Import pinboard json backup into database'
 
     def add_arguments(self, parser):
         parser.add_argument('file')
