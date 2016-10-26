@@ -10,7 +10,8 @@ class Command(BaseCommand):
         parser.add_argument('file')
 
     def handle(self, *args, **options):
-        data = json.load(open(options['file']))
+        with open(options['file']) as fobj:
+            data = json.load(fobj)
+            Bookmark.objects.bulk_create([Bookmark(**x) for x in data])
 
-        Bookmark.objects.bulk_create([Bookmark(**x) for x in data])
         print("done.")
