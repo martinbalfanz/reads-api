@@ -3,6 +3,7 @@ autopep8==1.2.4
 decorator==4.0.10
 Django==1.10.2
 django-debug-toolbar==1.6
+django-filter==0.15.3
 djangorestframework==3.5.1
 flake8==3.0.4
 importmagic==0.1.7
