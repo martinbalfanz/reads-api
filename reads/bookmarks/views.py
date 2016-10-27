@@ -18,3 +18,4 @@ class BookmarkViewSet(viewsets.ModelViewSet):
     queryset = Bookmark.objects.all().order_by('-time')
     serializer_class = BookmarkSerializer
     filter_class = BookmarkFilter
+    search_fields = ['href', 'description', 'extended', 'tags']
