@@ -4,7 +4,7 @@
 - [X] Authentication
 - [X] Permissions
 - [X] throtteling
-- [ ] Split settings for dev/production
+- [X] Split settings for dev/production
 - [ ] Dockerize App
 - [ ] uwsgi
 - [X] basic admin
