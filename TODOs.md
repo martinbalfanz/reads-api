@@ -7,7 +7,7 @@
 - [ ] Split settings for dev/production
 - [ ] Dockerize App
 - [ ] uwsgi
-- [ ] basic admin
+- [X] basic admin
 
 
 ## V2
