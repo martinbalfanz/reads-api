@@ -1,16 +1,32 @@
-* V1 [0/4]
-** STARTED Authentication
+* V1 [3/7]
+** DONE Authentication
+   CLOSED: [2016-10-30 Sun 13:45]
+   :LOGBOOK:
+   - State "DONE"       from "STARTED"    [2016-10-30 Sun 13:45]
+   :END:
+** DONE Permissions
+   CLOSED: [2016-10-30 Sun 13:45]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2016-10-30 Sun 13:45]
+   :END:
+** DONE throtteling
+   CLOSED: [2016-10-30 Sun 13:45]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2016-10-30 Sun 13:45]
+   :END:
 ** TODO Split settings for dev/production
 ** TODO Dockerize App
 ** TODO uwsgi
+** TODO basic admin
 * V2 [0/2]
 ** TODO Multi-User support
 ** TODO sphinx docs
 * V3 [0/2]
 ** TODO API versioning
 ** TODO Custom data format
-* Backlog [0/12]
+* Backlog [0/13]
 ** TODO Django-Suit based admin
+** TODO JWT
 ** TODO Client
 ** TODO Archiving
 ** TODO Import via Admin from Pinboard
@@ -19,6 +35,6 @@
 ** TODO CI/CD
 ** TODO Check from Boilerplate
 ** TODO rate limit
-** TODO throtteling
 ** TODO check what else DRF has to offer
 ** TODO check what else makes a production ready API
+** TODO validations
