@@ -14,7 +14,7 @@ clean:
 develop:
 	@echo "Installing python pdendencies"
 	pip install --upgrade pip wheel
-	pip install --use-wheel -r requirements.txt
+	pip install --use-wheel -r ./src/requirements.txt
 	@echo ""
 
 lint:
