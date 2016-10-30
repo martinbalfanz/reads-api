@@ -1,13 +1,15 @@
-* V1 [0/1]
+* V1 [0/4]
 ** STARTED Authentication
-* V2 [0/1]
+** TODO Split settings for dev/production
+** TODO Dockerize App
+** TODO uwsgi
+* V2 [0/2]
 ** TODO Multi-User support
 ** TODO sphinx docs
-* V3
+* V3 [0/2]
 ** TODO API versioning
 ** TODO Custom data format
-* Backlog [0/15]
-** TODO Dockerize App
+* Backlog [0/12]
 ** TODO Django-Suit based admin
 ** TODO Client
 ** TODO Archiving
