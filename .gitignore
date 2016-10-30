@@ -93,3 +93,6 @@ ENV/
 
 # pyCharm files
 .idea/
+
+# dummy db
+db.sqlite3
