@@ -4,7 +4,7 @@ A simple pinboard/read later service, mainly to learn about DRF.
 
 ## Edit settings
 
-Create a new file `reads/settings.py` with the following content:
+Create a new file `src/reads/settings.py` with the following content:
 
 ```python
 from reads.conf.development import *

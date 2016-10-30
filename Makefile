@@ -25,4 +25,4 @@ lint:
 	prospector
 
 	@echo "----- Bandit analysis -----"
-	bandit -r ./reads/
+	bandit -r ./src/
