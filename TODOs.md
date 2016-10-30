@@ -6,7 +6,7 @@
 - [X] throtteling
 - [X] Split settings for dev/production
 - [ ] Dockerize App
-- [ ] uwsgi
+- [X] uwsgi
 - [X] basic admin
 
 

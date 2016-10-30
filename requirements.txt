@@ -24,5 +24,6 @@ simplegeneric==0.8.1
 six==1.10.0
 sqlparse==0.2.2
 traitlets==4.3.1
+uWSGI==2.0.14
 wcwidth==0.1.7
 yapf==0.13.2
