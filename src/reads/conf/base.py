@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9bm@_ndoj5$w@*=(-6nr$u&^la)own9=8w-&8$*qjk4-=-5vpl'
+SECRET_KEY = '9bm@_ndoj5$w@*=(-6nr$u&^la)own9=8w-&8$*qjk4-=-5vpl'  # NOQA
 
 ALLOWED_HOSTS = []
 INTERNAL_IPS = ['127.0.0.1']

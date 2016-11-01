@@ -1,1 +1,1 @@
-from reads.conf.development import *
+from reads.conf.development import *  # NOQA

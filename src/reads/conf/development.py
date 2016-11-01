@@ -1,8 +1,8 @@
-from reads.conf.base import *
+from reads.conf.base import *  # NOQA
 
 DEBUG = True
 
-INSTALLED_APPS += ['debug_toolbar', ]
+INSTALLED_APPS += ['debug_toolbar', ]  # NOQA
 
 LOGGING = {
     'version': 1,
